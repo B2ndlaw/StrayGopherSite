@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Stolzl;
+    src: url(/fonts/Stolzl/stolzl_book.otf);
+   
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    margin: 0;
+   
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top:0;
+}
+
+.header__inner{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.header__logo{
+    width: 10%;
+    
+    
+}
+
+.logo__img{
+    width: 80px;
+    left: 0;
+}
+
+.nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 200px;
+    
+}
+
+.button {
+    display: flex;
+    width: 15%;
+    justify-content: right;
+
+  
+}
+
+.button__link{
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 2em;
+}
+
+.nav__link, .button__link{
+    font-family: Stolzl, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    transition: opacity .2s linear;
+    transition: background-color .2s linear;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    opacity: 0.5;
+
+}
+.button__link:hover {
+    background:black;
+    color: white;
+   
+}
+
+/*Header*/
+
+main{
+    height: 600px;
+    background-color:blanchedalmond;
+}
+
+/* Content*/
+
+
+.footer{
+    height: 300px;
+    background-color: brown;
+}
+
+.footer__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo__footer{
+    width: 50px;
+}
+
+.map{
+    
+}
+/*Footer*/
